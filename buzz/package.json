@@ -1,0 +1,10 @@
+{
+  "name": "eQuiz",
+  "version": "0.8.16",
+  "description": "app that lets connect client devices to interact with the server at realtime",
+  "private": "true",
+  "dependencies": {
+  	"socket.io":"1.0.6",
+  	"express":"4.8.7"
+  }
+}
