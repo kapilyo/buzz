@@ -1,0 +1,312 @@
+
+@font-face {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; padding: 0; margin: 0;-webkit-text-size-adjust: 100%;	-ms-text-size-adjust: 100%;}
+
+body {
+	 font-family: "Open Sans",Helvetica,sans-serif;
+	color: #1b76d1;
+	background: #f2f2f2;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	
+	background: url("../images/bg.jpg") no-repeat bottom;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover; 
+	transition: opacity 5s;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.hidden{
+	display: none;
+}
+
+.img-btn img{
+	height: 45px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.logo-home {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+
+.wide .logo-home .logo{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+
+
+.layout-two .logo-home {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.layout-two .logo-home .logo{
+	padding: 20px 0px;
+	width: 100%;
+}
+
+.logo-home .logo img {
+	width: 100%;
+	max-width: 180px;
+	margin: 0 auto;
+}
+
+.form-group {
+	text-align: center;
+}
+
+.btn {
+	width: 90%;
+	max-width: 310px;
+	margin: 0 auto;
+	display: block;
+	padding: 8px 5px;
+	margin-bottom: 15px;
+	background: rgb(22, 82, 190);
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+}
+
+.form-control {
+	width: 90%;
+max-width: 281px;
+padding: 8px 5px;
+margin: 0 auto;
+margin-bottom: 15px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #9D2188;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid #ccc;
+}
+
+.layout-two .home.form-group {
+	width: 50%;
+	padding-top: 2%;
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+}
+
+
+
+.layout-two .list.form-group{
+	width: 50%;
+	padding-top: 2%;
+	display: inline-block;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+home.form-group {
+	height: 40%;
+	padding-top: 2%;
+}
+
+.header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 145px;
+	width: 100%;
+	text-align: center;
+}
+
+.header .logo-inner img {
+	max-width: 160px;
+	margin-top: 10px;
+}
+
+.host {
+	padding-top: 145px;
+}
+
+h6 {
+	margin: 10px;
+	text-align: center;
+	color: #7B1572;
+	font-size: 16px;
+}
+
+ul.room-list,ul.players-list {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.room-list li,ul.players-list li {
+	list-style: none;
+	text-align: left;
+	padding: 4px;
+	border-bottom: 1px solid #E2E2E2;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+ul.room-list li:HOVER {
+	background: #ccc;
+}
+
+.room-count {
+	padding-left: 5px;
+	color: #000;
+	font-size: 12px;
+}
+
+.lock {
+	float: right;
+	background: url("../images/lock.png");
+	width: 25px;
+	height: 28px;
+	display: inline-block;
+}
+
+.unlock {
+	float: right;
+	background: url("../images/unlock.png");
+	width: 25px;
+	height: 28px;
+	display: inline-block;
+}
+
+.start-row {
+	margin-top: 20px;
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	z-index: 999;
+}
+
+/************* player part********************/
+.game-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url("../images/background.png") no-repeat center center;
+	background-size: cover;
+}
+
+.game-container .owl-carousel {
+	height: 75%;
+}
+
+.game-container .owl-carousel .owl-wrapper-outer {
+	height: 100%;
+}
+
+.owl-wrapper {
+	height: 100%;
+}
+
+.owl-item {
+	height: 100%;
+}
+
+.item {
+	height: 100%;
+	width: 99%;
+	padding-right: 1%;
+}
+
+.player-main {
+	height: 100%;
+	width: 100%;
+	background: #223355;
+	background-color: rgba(52, 53, 53, 0.3);
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+		StartColorStr='#7F00FF00', EndColorStr='#7F00FF00' );
+}
+
+.col-1 {
+	width: 32.5%;
+	height: 100%;
+	display: block;
+	float: left;
+	position: relative;
+}
+
+.cartoon{
+	position: absolute;
+	width: 100%;
+	top: 30%;
+}
+
+.cartoon img{
+	width: 100%;
+}
+
+.playerName{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.card{
+	height: 50%;
+	width: 100%;
+	background: url("../images/grey.png") no-repeat center;
+}
+
+.green{
+background: url("../images/green.png") no-repeat center;
+}
+
+.red{
+background: url("../images/red.png") no-repeat center;
+}
+.blue{
+	background: url("../images/blue.png") no-repeat center;
+}
+.yellow{
+	background: url("../images/yellow.png") no-repeat center;
+}
+
+.red-rule{
+	color: #A01313;
+}
